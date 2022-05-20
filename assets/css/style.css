@@ -119,3 +119,28 @@ body {
 .link-license:focus {
     outline-color: #65626E;
 }
+.input-submit {
+    border: none;
+    border-radius: 3px;
+
+    background-color: var(--secondary-light-color);
+    background: linear-gradient(180deg, var(--secondary-light-color) 0%, var(--secondary-dark-color) 100%);
+
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.input-submit:hover {
+    background: var(--secondary-dark-color);
+
+    cursor: pointer;
+}
+.input-submit,
+.text-sign-in {
+    color: var(--light-color);
+}
+.text-sign-in {
+    margin-top: 1em;
+}
+.link-sign-in {
+    color: inherit;
+}
