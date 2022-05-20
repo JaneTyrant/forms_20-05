@@ -8,6 +8,61 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <section class="section-registration">
+        <h2 class="section-registration-title text-align-center">Register</h2>
+        <p class="sestion-registration-description text-align-center">
+            Create your account. It's free and only takes a minute.
+        </p>
+        <form action="#" method="POST">
+            <div class="username-container">
+                <input class="username-input margin-right"
+                       type="text"
+                       pattern="^[a-z0-9_-]{3,15}$"
+                       name="first_name"
+                       placeholder="first name"
+                       autofocus
+                       required>
+                <input class="username-input"
+                       type="text"
+                       pattern="^[a-z0-9_-]{3,15}$"
+                       name="last_name"
+                       placeholder="last name"
+                       required>
+            </div>
+            <input class="input-text"
+                   type="text"
+                   name="email"
+                   placeholder="email"
+                   required>
+            <input class="input-text"
+                   type="text"
+                   name="password"
+                   placeholder="password"
+                   required>
+            <input class="input-text"
+                   type="text"
+                   name="confirm_password"
+                   placeholder="confirm password"
+                   required>
+            <label class="license">
+                <input class="input-checkbox"
+                       type="checkbox"
+                       name="license"
+                       required
+                       value="1">
+                <span>I accept the 
+                      <a class="link-license" href="#" target="_blank">Terms of use</a> & 
+                      <a class="link-license" href="#" target="_blank">Private Policy</a>.
+                </span>
+            </label>
+            <input class="input-submit"
+                   type="submit"
+                   value="Register Now">
+        </form>
+    </section>
+    <p class="text-sign-in text-align-center">
+        Already have an account?
+        <a class="link-sign-in" href="#">Sign in</a>
+    </p>
 </body>
 </html>
